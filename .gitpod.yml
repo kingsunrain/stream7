@@ -6,7 +6,7 @@
 
 tasks:
   - init: |
-      source venv/bin/activate
+      #source venv/bin/activate
       pip3 install streamlit
   - command: |
       python -m streamlit run app.py
