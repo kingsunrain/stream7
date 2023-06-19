@@ -8,3 +8,8 @@ tasks:
   - command: python app.py
 
 
+tasks:
+  - init: |
+      pip install streamlit
+  - command: |
+      python app.py
